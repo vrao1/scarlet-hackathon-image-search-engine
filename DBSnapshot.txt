@@ -1,0 +1,22 @@
+mysql> desc SEARCH_ENGINE;
++----------------+---------------+------+-----+---------+-------+
+| Field          | Type          | Null | Key | Default | Extra |
++----------------+---------------+------+-----+---------+-------+
+| image_location | varchar(1024) | NO   | PRI | NULL    |       |
+| caption_words  | text          | YES  |     | NULL    |       |
++----------------+---------------+------+-----+---------+-------+
+2 rows in set (0.21 sec)
+
+mysql> select * from SEARCH_ENGINE
+    -> ;
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| image_location                                 | caption_words                                                                                               |
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| ./image_repository/1351764581_4d4fb1b40f_b.jpg | car engine extinguish fire firefighter firehose fireman hood inside open small spray use water white        |
+| ./image_repository/1358089136_791785146b_o.jpg | attempting blue boy bright down dune hill huge make man sand short slide snowboard sunny surf t-shirt young |
+| ./image_repository/Ishu_Diksha.jpeg            | ishu diksha                                                                                                 |
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+3 rows in set (0.01 sec)
+
+mysql> 
+
